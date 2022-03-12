@@ -1,0 +1,11 @@
+.DS_Store
+# Ignore all hidden files/dirs except .gitignore and .travis.yml
+.*
+!/.gitignore
+!/.travis.yml
+
+/resources
+/licenseListPublisher-*.jar*
+
+# nodeJS
+node_modules/
